@@ -13,6 +13,6 @@ jobs:
     - name: Display message
       run: echo "Build Started"
     - name: List files
-      run: ls
+      run: ls -la
     - name: Build Succesfull
       run: echo "Build completed successfully"
